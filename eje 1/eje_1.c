@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
-int numero1();
-int numero2();
+int numero1(int a);//Declaración y definición deben ser iguales...
+int numero2(int b);
 int main()
 {
     int a=0, b=0;
@@ -12,7 +12,7 @@ int main()
     return 0;
 }
 
-int  numero1(a)
+int  numero1(int a)
 {
     printf("Ingrese el primer numero: ");
     scanf("%d", &a);
@@ -20,7 +20,7 @@ int  numero1(a)
     return a;
 }
 
-int numero2(b)
+int numero2(int b)
 {
     printf("Ingrese el segundo numero: ");
     scanf("%d", &b);

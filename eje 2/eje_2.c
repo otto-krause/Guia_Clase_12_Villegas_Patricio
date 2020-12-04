@@ -2,7 +2,7 @@
 #include <stdio.h>
 int peri();
 int area();
-
+//Idem ejercicio anterior.
 int main()
 {
 int a, b, P, A;

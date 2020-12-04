@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 int porce();
-
+//Idem ejercicio anterior.
 int main()
 {
 int h, m, porh=0;
